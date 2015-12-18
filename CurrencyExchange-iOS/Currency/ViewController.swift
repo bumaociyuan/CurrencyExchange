@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         view.addSubview(stackView)
         stackView.axis = .Vertical
         stackView.snp_makeConstraints { (make) -> Void in
-            make.edges.equalTo(view)
+            make.edges.equalTo(view).offset(EdgeInsetsMake(40, left: 20, bottom: -240, right: -20))
         }
         
         var rawValue = 0
