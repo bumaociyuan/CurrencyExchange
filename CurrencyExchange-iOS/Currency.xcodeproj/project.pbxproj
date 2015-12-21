@@ -126,6 +126,7 @@
 				TargetAttributes = {
 					844655091C239D8300E8E201 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 388D56L7YB;
 					};
 				};
 			};
@@ -327,6 +328,7 @@
 			baseConfigurationReference = F986EACC8AA700C8143AB799 /* Pods-Currency.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Currency/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -340,6 +342,7 @@
 			baseConfigurationReference = 41539556F3DAD29AFCB809FC /* Pods-Currency.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Currency/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
