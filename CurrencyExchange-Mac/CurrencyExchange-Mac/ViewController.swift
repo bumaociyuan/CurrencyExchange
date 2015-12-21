@@ -29,7 +29,7 @@ class ViewController: NSViewController {
 
         var rawValue = 0
         
-        
+        var previousView:NSView? = nil
         repeat {
             let symbol = CurrencySymbol(rawValue: rawValue)
             let textField = CurrencyTextField()
@@ -42,8 +42,13 @@ class ViewController: NSViewController {
 //            label.font = UIFont.systemFontOfSize(14)
             label.sizeToFit()
             
-//            textField.delegate = self
+            label.mas_makeConstraints({ (make) -> Void in
+                make.leading.equalTo(view.mas_leading)
+                make.trailing.equalTo(view.mas_leading)
+//                make.top.equalTo(
+            })
             
+//            textField.delegate = self
 //            textField.leftView = label
 //            textField.leftViewMode = .Always
 //            textField.clearButtonMode = .WhileEditing
